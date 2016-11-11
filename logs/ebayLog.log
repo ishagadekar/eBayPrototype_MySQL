@@ -1,0 +1,223 @@
+{"@message":"Website hit","@timestamp":"2016-10-16 22:8:4","@fields":{"level":"info"}}
+{"@message":"Sign in or register link clicked","@timestamp":"2016-10-16 22:8:5","@fields":{"level":"info"}}
+{"@message":"Sign in button clicked by user to check for email id = ishagadekar@gmail.com","@timestamp":"2016-10-16 22:8:13","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from users where email='ishagadekar@gmail.com'","@timestamp":"2016-10-16 22:8:13","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and email id is valid for user with email id = ishagadekar@gmail.com","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and are valid for user with id = 24","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"User = {\"user_id\":24,\"firstname\":\"Isha\",\"lastname\":\"Gadekar\",\"email\":\"ishagadekar@gmail.com\",\"password\":\"82bffb3cbc2f0e2729cc9a643d769c09a4dc5b6d\",\"handle\":\"ishagadekar\",\"logintime\":\"2016-10-17T05:04:20.000Z\",\"dob\":\"1991-06-04T07:00:00.000Z\",\"phone\":\"879-852-6325\",\"address\":\"San Jose\"} with id = 24 has been put into the session","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"Login time to be updated for user with id = 24 is = 2016-10-16 22:8:14","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"Executing query = update users set logintime='2016-10-16 22:8:14' where email='ishagadekar@gmail.com'","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"Login time updated successfully for user with id = 24","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 24","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Isha' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:8:14","@fields":{"level":"info"}}
+{"@message":"Displaying seller home page for user with id = 24","@timestamp":"2016-10-16 22:8:18","@fields":{"level":"info"}}
+{"@message":"Create listing button clicked by user with id = 24","@timestamp":"2016-10-16 22:9:8","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into itemsforsale values(NULL,24,'Charlie Puth Album CD','Features Charlie Puth new songs','Isha','San Jose, CA',30,2,'2016-10-16 22:9:8',0,'0000-00-00',0)","@timestamp":"2016-10-16 22:9:8","@fields":{"level":"info"}}
+{"@message":"Listing created for for user with id = 24","@timestamp":"2016-10-16 22:9:8","@fields":{"level":"info"}}
+{"@message":"Create listing button clicked by user with id = 24","@timestamp":"2016-10-16 22:9:55","@fields":{"level":"info"}}
+{"@message":"Listing to be created is a bid product for user with id = 24 with bid end date = 2016-10-20","@timestamp":"2016-10-16 22:9:55","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into itemsforsale values(NULL,24,'Chair Auction','Foldable chair for auction','Isha','New York',60,1,'2016-10-16 22:9:55',1,'2016-10-20',0)","@timestamp":"2016-10-16 22:9:55","@fields":{"level":"info"}}
+{"@message":"Listing created for for user with id = 24","@timestamp":"2016-10-16 22:9:55","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:9:58","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Isha' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:9:58","@fields":{"level":"info"}}
+{"@message":"Displaying MyeBay page for user with id = 24","@timestamp":"2016-10-16 22:10:6","@fields":{"level":"info"}}
+{"@message":"User clicked on MyeBay link","@timestamp":"2016-10-16 22:10:7","@fields":{"level":"info"}}
+{"@message":"Executing query = SELECT * FROM useractivityhistory where userId=24","@timestamp":"2016-10-16 22:10:7","@fields":{"level":"info"}}
+{"@message":"Error occurred while executing query = SELECT * FROM useractivityhistory where userId=24","@timestamp":"2016-10-16 22:10:7","@fields":{"level":"error"}}
+{"@message":"Purchase history fetched for user with id = 24","@timestamp":"2016-10-16 22:10:7","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale inner join useractivityhistory on itemsforsale.id = useractivityhistory.itemId","@timestamp":"2016-10-16 22:10:7","@fields":{"level":"info"}}
+{"@message":"Executing query = SELECT * FROM usersellhistory where sellerId=24","@timestamp":"2016-10-16 22:10:7","@fields":{"level":"info"}}
+{"@message":"No sell history found for use with id = 24","@timestamp":"2016-10-16 22:10:7","@fields":{"level":"info"}}
+{"@message":"Items purchased fetched for user with id = 24","@timestamp":"2016-10-16 22:10:7","@fields":{"level":"info"}}
+{"@message":"Displaying MyeBay page for user with id = 24","@timestamp":"2016-10-16 22:10:12","@fields":{"level":"info"}}
+{"@message":"User clicked on MyeBay link","@timestamp":"2016-10-16 22:10:13","@fields":{"level":"info"}}
+{"@message":"Executing query = SELECT * FROM useractivityhistory where userId=24","@timestamp":"2016-10-16 22:10:13","@fields":{"level":"info"}}
+{"@message":"Error occurred while executing query = SELECT * FROM useractivityhistory where userId=24","@timestamp":"2016-10-16 22:10:13","@fields":{"level":"error"}}
+{"@message":"Purchase history fetched for user with id = 24","@timestamp":"2016-10-16 22:10:13","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale inner join useractivityhistory on itemsforsale.id = useractivityhistory.itemId","@timestamp":"2016-10-16 22:10:13","@fields":{"level":"info"}}
+{"@message":"Executing query = SELECT * FROM usersellhistory where sellerId=24","@timestamp":"2016-10-16 22:10:13","@fields":{"level":"info"}}
+{"@message":"Items purchased fetched for user with id = 24","@timestamp":"2016-10-16 22:10:13","@fields":{"level":"info"}}
+{"@message":"No sell history found for use with id = 24","@timestamp":"2016-10-16 22:10:13","@fields":{"level":"info"}}
+{"@message":"Displaying shopping cart page for user with id = 24","@timestamp":"2016-10-16 22:10:21","@fields":{"level":"info"}}
+{"@message":"Shopping cart icon clicked by user. Fetching shopping cart details for user with id = 24","@timestamp":"2016-10-16 22:10:22","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from shoppingcart where userId=24","@timestamp":"2016-10-16 22:10:22","@fields":{"level":"info"}}
+{"@message":"Shopping cart empty for user with id = 24","@timestamp":"2016-10-16 22:10:22","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 24","@timestamp":"2016-10-16 22:10:24","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:10:25","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Isha' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:10:25","@fields":{"level":"info"}}
+{"@message":"Displaying listing page for user with id = 24","@timestamp":"2016-10-16 22:10:28","@fields":{"level":"info"}}
+{"@message":"Fetching listing details for item with id = 39 for user with id = 24","@timestamp":"2016-10-16 22:10:29","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where id=39","@timestamp":"2016-10-16 22:10:29","@fields":{"level":"info"}}
+{"@message":"Listing details for item with id = 39 for user with id = 24 fetched successfully","@timestamp":"2016-10-16 22:10:29","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from shoppingcart where userId=24 and itemId=39","@timestamp":"2016-10-16 22:10:31","@fields":{"level":"info"}}
+{"@message":"Add to cart button clicked by user. Saving shopping cart details for user with id = 24","@timestamp":"2016-10-16 22:10:31","@fields":{"level":"info"}}
+{"@message":"Inserting new cart item for user with id = 24","@timestamp":"2016-10-16 22:10:31","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into shoppingcart values(24,39,1)","@timestamp":"2016-10-16 22:10:31","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set quantity=quantity-1 where id=39","@timestamp":"2016-10-16 22:10:31","@fields":{"level":"info"}}
+{"@message":"Displaying shopping cart page for user with id = 24","@timestamp":"2016-10-16 22:10:33","@fields":{"level":"info"}}
+{"@message":"Shopping cart icon clicked by user. Fetching shopping cart details for user with id = 24","@timestamp":"2016-10-16 22:10:33","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from shoppingcart where userId=24","@timestamp":"2016-10-16 22:10:33","@fields":{"level":"info"}}
+{"@message":"Shopping cart items fetched successfully for user with id = 24","@timestamp":"2016-10-16 22:10:33","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where id in (39)","@timestamp":"2016-10-16 22:10:33","@fields":{"level":"info"}}
+{"@message":"Shopping cart item details fetched successfully for user with id = 24","@timestamp":"2016-10-16 22:10:33","@fields":{"level":"info"}}
+{"@message":"Displaying checkout page for user with id = 24","@timestamp":"2016-10-16 22:10:35","@fields":{"level":"info"}}
+{"@message":"Removing cart items for checkout after cart items checkout","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Removing cart items for user with id = 24","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Executing query = delete from shoppingcart where userId=24","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Cart items deleted for user with id = 24","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Order id for user with id = 24 is = 1016201644","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Inserting cart items into user activity history for user with id = 24","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into useractivityhistory values(1016201644,24,39,1,'2016-10-16')","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Inserting bought items into seller's sell history for seller with id = 26","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into usersellhistory values(1016201644,26,39,1,'2016-10-16')","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"User activity history updated for user with id = 24","@timestamp":"2016-10-16 22:10:44","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 24","@timestamp":"2016-10-16 22:10:46","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:10:46","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Isha' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:10:46","@fields":{"level":"info"}}
+{"@message":"Displaying listing page for user with id = 24","@timestamp":"2016-10-16 22:10:49","@fields":{"level":"info"}}
+{"@message":"Fetching listing details for item with id = 39 for user with id = 24","@timestamp":"2016-10-16 22:10:50","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where id=39","@timestamp":"2016-10-16 22:10:50","@fields":{"level":"info"}}
+{"@message":"Listing details for item with id = 39 for user with id = 24 fetched successfully","@timestamp":"2016-10-16 22:10:50","@fields":{"level":"info"}}
+{"@message":"Displaying checkout page for user with id = 24","@timestamp":"2016-10-16 22:10:52","@fields":{"level":"info"}}
+{"@message":"Fetching listing details for item with id = 39 for user with id = 24","@timestamp":"2016-10-16 22:10:56","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where id=39","@timestamp":"2016-10-16 22:10:56","@fields":{"level":"info"}}
+{"@message":"Listing details for item with id = 39 for user with id = 24 fetched successfully","@timestamp":"2016-10-16 22:10:56","@fields":{"level":"info"}}
+{"@message":"User with id = 24 has been signed out successfully","@timestamp":"2016-10-16 22:10:58","@fields":{"level":"info"}}
+{"@message":"Website hit","@timestamp":"2016-10-16 22:10:59","@fields":{"level":"info"}}
+{"@message":"Sign in or register link clicked","@timestamp":"2016-10-16 22:11:1","@fields":{"level":"info"}}
+{"@message":"Sign in button clicked by user to check for email id = apoorva@gmail.com","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from users where email='apoorva@gmail.com'","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and email id is valid for user with email id = apoorva@gmail.com","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and are valid for user with id = 26","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"User = {\"user_id\":26,\"firstname\":\"Apoorva\",\"lastname\":\"Jagtap\",\"email\":\"apoorva@gmail.com\",\"password\":\"82bffb3cbc2f0e2729cc9a643d769c09a4dc5b6d\",\"handle\":\"apoorva\",\"logintime\":\"2016-10-17T04:40:14.000Z\",\"dob\":\"1994-08-18T07:00:00.000Z\",\"phone\":\"585-964-6325\",\"address\":\"Charlotte, NC\"} with id = 26 has been put into the session","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"Login time to be updated for user with id = 26 is = 2016-10-16 22:11:8","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"Executing query = update users set logintime='2016-10-16 22:11:8' where email='apoorva@gmail.com'","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"Login time updated successfully for user with id = 26","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 26","@timestamp":"2016-10-16 22:11:8","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:11:9","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Apoorva' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:11:9","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 44 by user with id = 26","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,26,44,100,'2016-10-16 22:11:24')","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Bid amount of 100 for item id = 44 entered in DB for user with id = 26","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 100 where id = 44","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 26","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"User with id = 26 has been signed out successfully","@timestamp":"2016-10-16 22:11:28","@fields":{"level":"info"}}
+{"@message":"Website hit","@timestamp":"2016-10-16 22:11:30","@fields":{"level":"info"}}
+{"@message":"Sign in or register link clicked","@timestamp":"2016-10-16 22:11:31","@fields":{"level":"info"}}
+{"@message":"Sign in button clicked by user to check for email id = shrutigadekar@gmail.com","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from users where email='shrutigadekar@gmail.com'","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and email id is valid for user with email id = shrutigadekar@gmail.com","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and are valid for user with id = 25","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"User = {\"user_id\":25,\"firstname\":\"Shruti\",\"lastname\":\"Gadekar\",\"email\":\"shrutigadekar@gmail.com\",\"password\":\"82bffb3cbc2f0e2729cc9a643d769c09a4dc5b6d\",\"handle\":\"shrutigadekar\",\"logintime\":\"2016-10-17T03:22:50.000Z\",\"dob\":\"2005-07-19T07:00:00.000Z\",\"phone\":\"232-856-8974\",\"address\":\"San Jose\"} with id = 25 has been put into the session","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"Login time to be updated for user with id = 25 is = 2016-10-16 22:11:58","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"Executing query = update users set logintime='2016-10-16 22:11:58' where email='shrutigadekar@gmail.com'","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"Login time updated successfully for user with id = 25","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 25","@timestamp":"2016-10-16 22:11:58","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:11:59","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Shruti' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:11:59","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 44 by user with id = 25","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,25,44,500,'2016-10-16 22:12:4')","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Bid amount of 500 for item id = 44 entered in DB for user with id = 25","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 500 where id = 44","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 25","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"User with id = 25 has been signed out successfully","@timestamp":"2016-10-16 22:12:8","@fields":{"level":"info"}}
+{"@message":"Website hit","@timestamp":"2016-10-16 22:12:8","@fields":{"level":"info"}}
+{"@message":"Sign in or register link clicked","@timestamp":"2016-10-16 22:12:42","@fields":{"level":"info"}}
+{"@message":"Sign in button clicked by user to check for email id = apoorva@gmail.com","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from users where email='apoorva@gmail.com'","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and email id is valid for user with email id = apoorva@gmail.com","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and are valid for user with id = 26","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"User = {\"user_id\":26,\"firstname\":\"Apoorva\",\"lastname\":\"Jagtap\",\"email\":\"apoorva@gmail.com\",\"password\":\"82bffb3cbc2f0e2729cc9a643d769c09a4dc5b6d\",\"handle\":\"apoorva\",\"logintime\":\"2016-10-17T05:11:08.000Z\",\"dob\":\"1994-08-18T07:00:00.000Z\",\"phone\":\"585-964-6325\",\"address\":\"Charlotte, NC\"} with id = 26 has been put into the session","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"Login time to be updated for user with id = 26 is = 2016-10-16 22:12:49","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"Executing query = update users set logintime='2016-10-16 22:12:49' where email='apoorva@gmail.com'","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"Login time updated successfully for user with id = 26","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 26","@timestamp":"2016-10-16 22:12:49","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Apoorva' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from biduser where itemId = 44","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Fetching data from bid users to get highest bidder","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into bidwinners values(NULL,25,44,500,1016201650,'2016-10-16 22:12:4')","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set sold = 1 where  id = 44","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Displaying seller home page for user with id = 26","@timestamp":"2016-10-16 22:13:17","@fields":{"level":"info"}}
+{"@message":"Create listing button clicked by user with id = 26","@timestamp":"2016-10-16 22:14:4","@fields":{"level":"info"}}
+{"@message":"Listing to be created is a bid product for user with id = 26 with bid end date = 2016-10-20","@timestamp":"2016-10-16 22:14:4","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into itemsforsale values(NULL,26,'Queen size Mattress','Soft Queen size Mattress for auction 6 inches','Apoorva','Washington',220,1,'2016-10-16 22:14:4',1,'2016-10-20',0)","@timestamp":"2016-10-16 22:14:4","@fields":{"level":"info"}}
+{"@message":"Listing created for for user with id = 26","@timestamp":"2016-10-16 22:14:4","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:14:7","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Apoorva' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:14:7","@fields":{"level":"info"}}
+{"@message":"User with id = 26 has been signed out successfully","@timestamp":"2016-10-16 22:14:10","@fields":{"level":"info"}}
+{"@message":"Website hit","@timestamp":"2016-10-16 22:14:10","@fields":{"level":"info"}}
+{"@message":"Sign in or register link clicked","@timestamp":"2016-10-16 22:14:12","@fields":{"level":"info"}}
+{"@message":"Sign in button clicked by user to check for email id = ishagadekar@gmail.com","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from users where email='ishagadekar@gmail.com'","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and email id is valid for user with email id = ishagadekar@gmail.com","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and are valid for user with id = 24","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"User = {\"user_id\":24,\"firstname\":\"Isha\",\"lastname\":\"Gadekar\",\"email\":\"ishagadekar@gmail.com\",\"password\":\"82bffb3cbc2f0e2729cc9a643d769c09a4dc5b6d\",\"handle\":\"ishagadekar\",\"logintime\":\"2016-10-17T05:08:14.000Z\",\"dob\":\"1991-06-04T07:00:00.000Z\",\"phone\":\"879-852-6325\",\"address\":\"San Jose\"} with id = 24 has been put into the session","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"Login time to be updated for user with id = 24 is = 2016-10-16 22:14:21","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"Executing query = update users set logintime='2016-10-16 22:14:21' where email='ishagadekar@gmail.com'","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"Login time updated successfully for user with id = 24","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 24","@timestamp":"2016-10-16 22:14:21","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:14:22","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Isha' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:14:22","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 45 by user with id = 24","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,24,45,300,'2016-10-16 22:14:27')","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Bid amount of 300 for item id = 45 entered in DB for user with id = 24","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 300 where id = 45","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 24","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"User with id = 24 has been signed out successfully","@timestamp":"2016-10-16 22:14:29","@fields":{"level":"info"}}
+{"@message":"Website hit","@timestamp":"2016-10-16 22:14:31","@fields":{"level":"info"}}
+{"@message":"Sign in or register link clicked","@timestamp":"2016-10-16 22:14:32","@fields":{"level":"info"}}
+{"@message":"Sign in button clicked by user to check for email id = SanJoseRetailers@gmail.com","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from users where email='SanJoseRetailers@gmail.com'","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and email id is valid for user with email id = SanJoseRetailers@gmail.com","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and are valid for user with id = 27","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"User = {\"user_id\":27,\"firstname\":\"SanJoseRetailers\",\"lastname\":\"SanJoseRetailers\",\"email\":\"SanJoseRetailers@gmail.com\",\"password\":\"82bffb3cbc2f0e2729cc9a643d769c09a4dc5b6d\",\"handle\":\"SanJoseRetailers\",\"logintime\":\"2016-10-17T04:43:21.000Z\",\"dob\":\"2009-03-10T07:00:00.000Z\",\"phone\":\"222-897-4512\",\"address\":\"San Jose, CA\"} with id = 27 has been put into the session","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"Login time to be updated for user with id = 27 is = 2016-10-16 22:14:52","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"Executing query = update users set logintime='2016-10-16 22:14:52' where email='SanJoseRetailers@gmail.com'","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"Login time updated successfully for user with id = 27","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 27","@timestamp":"2016-10-16 22:14:52","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:14:53","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'SanJoseRetailers' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:14:53","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 45 by user with id = 27","@timestamp":"2016-10-16 22:14:57","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,27,45,320,'2016-10-16 22:14:57')","@timestamp":"2016-10-16 22:14:57","@fields":{"level":"info"}}
+{"@message":"Bid amount of 320 for item id = 45 entered in DB for user with id = 27","@timestamp":"2016-10-16 22:14:58","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 320 where id = 45","@timestamp":"2016-10-16 22:14:58","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 27","@timestamp":"2016-10-16 22:14:58","@fields":{"level":"info"}}
+{"@message":"User with id = 27 has been signed out successfully","@timestamp":"2016-10-16 22:15:0","@fields":{"level":"info"}}
+{"@message":"Website hit","@timestamp":"2016-10-16 22:15:1","@fields":{"level":"info"}}
+{"@message":"Sign in or register link clicked","@timestamp":"2016-10-16 22:15:2","@fields":{"level":"info"}}
+{"@message":"Sign in button clicked by user to check for email id = ishagadekar@gmail.com","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from users where email='ishagadekar@gmail.com'","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and email id is valid for user with email id = ishagadekar@gmail.com","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and are valid for user with id = 24","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"User = {\"user_id\":24,\"firstname\":\"Isha\",\"lastname\":\"Gadekar\",\"email\":\"ishagadekar@gmail.com\",\"password\":\"82bffb3cbc2f0e2729cc9a643d769c09a4dc5b6d\",\"handle\":\"ishagadekar\",\"logintime\":\"2016-10-17T05:14:21.000Z\",\"dob\":\"1991-06-04T07:00:00.000Z\",\"phone\":\"879-852-6325\",\"address\":\"San Jose\"} with id = 24 has been put into the session","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"Login time to be updated for user with id = 24 is = 2016-10-16 22:15:9","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"Executing query = update users set logintime='2016-10-16 22:15:9' where email='ishagadekar@gmail.com'","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"Login time updated successfully for user with id = 24","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 24","@timestamp":"2016-10-16 22:15:9","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:15:10","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Isha' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:15:10","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 45 by user with id = 24","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,24,45,405,'2016-10-16 22:15:18')","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Bid amount of 405 for item id = 45 entered in DB for user with id = 24","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 405 where id = 45","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 24","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"User with id = 24 has been signed out successfully","@timestamp":"2016-10-16 22:15:20","@fields":{"level":"info"}}
+{"@message":"Website hit","@timestamp":"2016-10-16 22:15:20","@fields":{"level":"info"}}
+{"@message":"Sign in or register link clicked","@timestamp":"2016-10-16 22:15:43","@fields":{"level":"info"}}
+{"@message":"Sign in button clicked by user to check for email id = ishagadekar@gmail.com","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from users where email='ishagadekar@gmail.com'","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and email id is valid for user with email id = ishagadekar@gmail.com","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"Sign in credentials fetched successfully and are valid for user with id = 24","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"User = {\"user_id\":24,\"firstname\":\"Isha\",\"lastname\":\"Gadekar\",\"email\":\"ishagadekar@gmail.com\",\"password\":\"82bffb3cbc2f0e2729cc9a643d769c09a4dc5b6d\",\"handle\":\"ishagadekar\",\"logintime\":\"2016-10-17T05:15:09.000Z\",\"dob\":\"1991-06-04T07:00:00.000Z\",\"phone\":\"879-852-6325\",\"address\":\"San Jose\"} with id = 24 has been put into the session","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"Login time to be updated for user with id = 24 is = 2016-10-16 22:15:53","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"Executing query = update users set logintime='2016-10-16 22:15:53' where email='ishagadekar@gmail.com'","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"Login time updated successfully for user with id = 24","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"Displaying home page for user with id = 24","@timestamp":"2016-10-16 22:15:53","@fields":{"level":"info"}}
+{"@message":"Fetching home page data after home page hit","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from itemsforsale where sellername != 'Isha' and quantity > 0 ORDER BY timestamp DESC;","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from biduser where itemId = 45","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Fetching data from bid users to get highest bidder","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into bidwinners values(NULL,24,45,405,1016201654,'2016-10-16 22:15:18')","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set sold = 1 where  id = 45","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}

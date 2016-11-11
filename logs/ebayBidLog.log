@@ -1,0 +1,41 @@
+{"@message":"Listing to be created is a bid product for user with id = 24 with bid end date = 2016-10-20","@timestamp":"2016-10-16 22:9:55","@fields":{"level":"info"}}
+{"@message":"Listing for bidding created for for user with id = 24","@timestamp":"2016-10-16 22:9:55","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 44 by user with id = 26","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,26,44,100,'2016-10-16 22:11:24')","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Bid amount of 100 for item id = 44 entered in DB for user with id = 26","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 100 where id = 44","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 26","@timestamp":"2016-10-16 22:11:24","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 44 by user with id = 25","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,25,44,500,'2016-10-16 22:12:4')","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Bid amount of 500 for item id = 44 entered in DB for user with id = 25","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 500 where id = 44","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 25","@timestamp":"2016-10-16 22:12:4","@fields":{"level":"info"}}
+{"@message":"Bid end date 2016-10-16 for item with id = 44 has come","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from biduser where itemId = 44","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Fetching data from bid users to get highest bidder","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into bidwinners values(NULL,25,44,500,1016201650,'2016-10-16 22:12:4')","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Highest bidder for item id = 44 is user with id = 25","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set sold = 1 where  id = 44","@timestamp":"2016-10-16 22:12:50","@fields":{"level":"info"}}
+{"@message":"Listing to be created is a bid product for user with id = 26 with bid end date = 2016-10-20","@timestamp":"2016-10-16 22:14:4","@fields":{"level":"info"}}
+{"@message":"Listing for bidding created for for user with id = 26","@timestamp":"2016-10-16 22:14:4","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 45 by user with id = 24","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,24,45,300,'2016-10-16 22:14:27')","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Bid amount of 300 for item id = 45 entered in DB for user with id = 24","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 300 where id = 45","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 24","@timestamp":"2016-10-16 22:14:27","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 45 by user with id = 27","@timestamp":"2016-10-16 22:14:57","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,27,45,320,'2016-10-16 22:14:57')","@timestamp":"2016-10-16 22:14:57","@fields":{"level":"info"}}
+{"@message":"Bid amount of 320 for item id = 45 entered in DB for user with id = 27","@timestamp":"2016-10-16 22:14:58","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 320 where id = 45","@timestamp":"2016-10-16 22:14:58","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 27","@timestamp":"2016-10-16 22:14:58","@fields":{"level":"info"}}
+{"@message":"Bid product button clicked for item id = 45 by user with id = 24","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into biduser values(NULL,24,45,405,'2016-10-16 22:15:18')","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Bid amount of 405 for item id = 45 entered in DB for user with id = 24","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set itemprice = 405 where id = 45","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Bid amount entered in DB successully for user with id = 24","@timestamp":"2016-10-16 22:15:18","@fields":{"level":"info"}}
+{"@message":"Bid end date 2016-10-16 for item with id = 45 has come","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Executing query = select * from biduser where itemId = 45","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Fetching data from bid users to get highest bidder","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Executing query = insert into bidwinners values(NULL,24,45,405,1016201654,'2016-10-16 22:15:18')","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Highest bidder for item id = 45 is user with id = 24","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
+{"@message":"Executing query = update itemsforsale set sold = 1 where  id = 45","@timestamp":"2016-10-16 22:15:54","@fields":{"level":"info"}}
